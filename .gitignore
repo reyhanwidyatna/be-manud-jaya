@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Firebase service account key
+serviceAccountKey.json
+
+# Environment variables
+.env
+
+# Firebase SDK cache
+.firebase/
+
+# Logs
+logs/
+
+# Build files
+dist/
+
+# Editor files
+.idea/
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
