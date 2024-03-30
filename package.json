@@ -2,10 +2,10 @@
   "name": "be-manud-jaya",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js",
+    "dev": "nodemon index.js",
     "deploy": "firebase deploy --only functions:api"
   },
   "type": "module",

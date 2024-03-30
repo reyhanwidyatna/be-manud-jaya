@@ -1,13 +1,13 @@
 import express from 'express';
 import cors from 'cors';
 
-import config from './config.js';
+import config from './src/config.js';
 
-import authRoute from './routes/authRoute.js';
-import userRoute from './routes/userRoute.js';
-import financialRoute from './routes/financialRoute.js';
-import informationRoute from './routes/informationRoute.js';
-import administrationRoute from './routes/administrationRoute.js';
+import authRoute from './src/routes/authRoute.js';
+import userRoute from './src/routes/userRoute.js';
+import financialRoute from './src/routes/financialRoute.js';
+import informationRoute from './src/routes/informationRoute.js';
+import administrationRoute from './src/routes/administrationRoute.js';
 
 const app = express();
 
