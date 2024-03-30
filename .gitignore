@@ -5,7 +5,7 @@ node_modules/
 serviceAccountKey.json
 
 # Environment variables
-# .env
+.env
 
 # Firebase SDK cache
 .firebase/
