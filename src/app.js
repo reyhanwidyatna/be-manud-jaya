@@ -23,3 +23,5 @@ app.use(administrationRoute);
 app.listen(config.port, () =>
   console.log(`Server is live PORT:${config.hostUrl}`),
 );
+
+export default app;
