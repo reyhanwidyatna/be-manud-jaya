@@ -10,8 +10,15 @@ import informationRoute from './src/routes/informationRoute.js';
 import administrationRoute from './src/routes/administrationRoute.js';
 
 const app = express();
+const corsOptions = {
+  origin: '*',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  allowedHeaders: 'Content-Type, Authorization',
+  credentials: true,
+  optionsSuccessStatus: 200
+};
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.use(authRoute);
